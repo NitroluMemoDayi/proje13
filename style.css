@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;300;400;500;600;700;800&family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900&family=Teko:wght@400;500;600;700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Poppins;
+}
+header{
+      background-color: orange;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 75px;
+      color: #fff;
+}
+header h1 {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+}
+header h1 span{
+      font-size: 45px;
+      font-family: "Fira Sans Condensed";
+}
+.search{
+      font-size: 30px;
+      position: absolute;
+      cursor: pointer;
+      transition: .5s;
+}
+header input{
+      padding: 15px 20px;
+      border-radius: 10px;
+      border: 0;
+      outline: 0;
+      transition: .5s;
+}
+/* .ara{
+      display: flex;
+      align-items: center;
+}       
+#arama:hover +label{
+      border-radius:0 5px 5px 0;
+}
+#arama:hover + label {
+      background-color: #fa3;
+}
+#arama {
+      background-color: #e0e0e0;
+      border: 1px solid #666;
+      color: #222;
+      display: inline-block;
+      font:1.2em Helvetica;
+      margin-right: -.25em;
+      outline: 0;
+      opacity: 0;
+      padding: 10px;
+      transition: .55s;
+      -webkit-transition: .55s;
+      -moz-transition: .55s;
+      -ms-transition: .55s;
+      -o-transition: .55s;
+      width: 0;
+}
+#arama:hover {
+      opacity: 1;
+      padding-left: .75em;
+      padding-right: .75em;
+      width: 11em;
+      border-radius:5px 0 0 5px;
+} */
+.buttons button{
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 0;
+      outline: 0;
+      cursor: pointer;
+}
+.buttons :nth-child(1){
+      background-color: darkblue;
+      color: #fff;
+}
+.buttons :nth-child(2){
+      background-color: crimson;
+      color: #fff;
+}
+.buttons :nth-child(3){
+      background-color: #fff;
+}
+/*  */
+.category-wrapper{
+      padding: 20px;
+}
+.categoryList{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 40px;
+      margin-top: 10px;
+}
+.category{
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+}
+.category img{
+      width: 100%;
+      border-radius: 10px;
+}
+.category span{
+      padding: 10px 20px;
+      position: absolute;
+      background-color: #fff;
+      border-radius: 10px;
+      bottom: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* ürünler */
+.products-wrapper{
+      padding: 20px;
+}
+.productList{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 10px;
+}
+.product{
+      max-width: 250px;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.product img{
+      max-width: 100%;
+      border-radius: 10px;
+}
+.product-info{
+      background-color: #000;
+      width: 100%;
+      padding: 10px;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 10px;
+      align-items: center;
+}
+.product-info button{
+      background-color: rgb(235, 164, 13);
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: 0;
+      outline: 0;
+      cursor: pointer;
+}
